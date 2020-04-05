@@ -1,8 +1,8 @@
 " Theme: Bwhite
 " Author: Barret Ren<barret.ren@oulook.com>
-" Source: https://github.com/BarretRen/vim-colorscheme
+" Source: https://github.com/BarretRen/barret-vimcolor
 
-let s:version = '0.9.x'
+let s:version = '1.0.x'
 
 " Note on navigating this source code:
 " - Use folding feature to collapse/uncollapse blocks of marked code
@@ -22,7 +22,7 @@ fun! s:register_default_theme()
   " Theme name should be lowercase
   let s:themes['default'] = {
         \   'maintainer'  : 'Barret Ren<barret.ren@oulook.com>',
-        \   'source' : 'https://github.com/BarretRen/vim-colorscheme',
+        \   'source' : 'https://github.com/BarretRen/barret-vimcolor',
         \   'description' : 'The original Bwhite Theme, inspired by Google Material Design',
         \   'options' : {
         \       'allow_bold': 1
@@ -1344,7 +1344,7 @@ fun! s:apply_syntax_highlightings()
   " exec 'hi cCustomFunc' . s:fg_foreground
   " exec 'hi cUserFunction' . s:fg_blue . s:ft_bold
   exec 'hi cOctalZero' . s:fg_purple . s:ft_bold
-  if s:langOpt_c__highlight_builtins == 0
+  if s:langOpt_c__highlight_builtins == 1
     exec 'hi cFunction' . s:fg_blue
   else
     exec 'hi cFunction' . s:fg_foreground
@@ -1360,7 +1360,7 @@ fun! s:apply_syntax_highlightings()
   exec 'hi cppStatement' . s:fg_blue
   exec 'hi cppStorageClass' . s:fg_navy . s:ft_bold
   exec 'hi cppAccess' . s:fg_orange . s:ft_bold
-  if s:langOpt_cpp__highlight_standard_library == 0
+  if s:langOpt_cpp__highlight_standard_library == 1
     exec 'hi cppSTLconstant' . s:fg_green . s:ft_bold
     exec 'hi cppSTLtype' . s:fg_pink . s:ft_bold
     exec 'hi cppSTLfunction' . s:fg_blue
@@ -2201,7 +2201,7 @@ fun! g:Bwhite()
   echom 'Bwhite Theme Framework'
   echom '  version ' . s:version
   echom '  by Nikyle Nguyen et al.'
-  echom '  at https://github.com/NLKNguyen/Bwhite-theme/'
+  echom '  at https://github.com/BarretRen/barret-vimcolor'
   echom ' '
   echom 'Current theme: ' . s:theme_name
   echom '  ' . s:selected_theme['description']
