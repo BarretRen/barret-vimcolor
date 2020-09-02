@@ -1,4 +1,7 @@
-#### 豆沙绿背景色 
+## ChangeLogs
+* 2020/9/2: add customed vim one theme, inspired vim-one repo
+
+## 豆沙绿背景色 
 Bgreen with light blackground:  
 **Note:**: 该配色背景依赖终端的颜色，需要优先把终端背景色设置好
 * Light theme: 
@@ -11,10 +14,10 @@ Bgreen with light blackground:
 ![Bgreen](Bgreen.png)
 
 
-#### 白色背景色
+### 白色背景色
 Bwhite with light blackground:  
 ![white](white.png)
 
-#### 灰黑色背景色
+### 灰黑色背景色
 Bblack:  
 ![black](black.png)
