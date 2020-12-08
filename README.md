@@ -1,4 +1,5 @@
 ## ChangeLogs
+* 2020/12/08: update Bblack theme
 * 2020/9/2: add customed vim one theme, inspired vim-one repo
 
 ## 豆沙绿背景色 
@@ -17,6 +18,8 @@ Bgreen with light blackground:
 ### 白色背景色
 Bwhite with light blackground:  
 ![white](white.png)
+
+> you can also use the dark theme with Bwhite, just set background to dark
 
 ### 灰黑色背景色
 Bblack:  
